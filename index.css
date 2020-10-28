@@ -1,5 +1,7 @@
 body{
      background-color: aliceblue;
+     max-width: 100%;
+     height:auto;
 
 }
 
@@ -129,12 +131,15 @@ body{
 
 @keyframes faded {
     0%{
-        border: 7px dashed #ef4cff ;
+        border: 7px dotted #ef4cff ;
     }  
    50%{
-    border: 7px dashed #ef8e8d ;
+    border: 7px dotted #ef8e8d ;
     }
     100% {
-        border: 7px dashed purple;
+        border: 7px dotted purple;
     }
  }
+
+
+

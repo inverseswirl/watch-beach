@@ -132,11 +132,11 @@ body{
 
 @keyframes faded {
     0%{
-        border: 7px dotted slateblue;
+        border: 7px double slateblue;
     }  
    
     100% {
-        border: 7px dotted purple;
+        border: 7px double darkorchid;
     }
  }
 

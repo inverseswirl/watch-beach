@@ -1,5 +1,5 @@
 body{
-     background:url(./img1.jpg) ;
+     background-color: aliceblue;
 
 }
 
@@ -105,7 +105,7 @@ body{
     position: absolute;
     left: 535px;
     top: 350px;
-    font-size: 3vw;
+    font-size: 4vw;
     font-style: italic;
     transition: ease-in;
 

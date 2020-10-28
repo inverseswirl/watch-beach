@@ -9,7 +9,7 @@ function timer(){
   seconds= seconds<10? "0"+seconds:seconds;
   var time= 00+":"+ 00+":"+ 00 +" " + am_Pm;
 
-  var time= hours+":"+ minutes+":"+ seconds +" " +am_Pm;
+  var time= hours+":"+ minutes+" " +am_Pm;
 
  var element= document.getElementById('timer');
  element.innerHTML= time;
@@ -22,19 +22,19 @@ function timer(){
  sixthElement=document.getElementById('box11')
 
 if( seconds%2==0){
-  anotherElement.style.opacity= 0.1;
-  secondElement.style.opacity= 0.1;
-  thirdElement.style.opacity= 0.1;
-  fourthElement.style.opacity= 0.1;
-  fifthElement.style.opacity=0.1;
-  sixthElement.style.opacity=0.1;
+  anotherElement.style.opacity= 0.2;
+  secondElement.style.opacity= 0.2;
+  thirdElement.style.opacity= 0.2;
+  fourthElement.style.opacity= 0.2;
+  fifthElement.style.opacity=0.2;
+  sixthElement.style.opacity=0.2;
  } else{
-  anotherElement.style.opacity=0.3;
-  secondElement.style.opacity= 0.3;
-  thirdElement.style.opacity= 0.3;
-  fourthElement.style.opacity= 0.3;
-  fifthElement.style.opacity=0.3;
-  sixthElement.style.opacity=0.3;
+  anotherElement.style.opacity=0.6;
+  secondElement.style.opacity= 0.6;
+  thirdElement.style.opacity= 0.6;
+  fourthElement.style.opacity= 0.6;
+  fifthElement.style.opacity=0.6;
+  sixthElement.style.opacity=0.6;
  }
 
   

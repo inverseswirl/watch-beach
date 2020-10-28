@@ -9,7 +9,7 @@ function timer(){
   seconds= seconds<10? "0"+seconds:seconds;
   var time= 00+":"+ 00+":"+ 00 +" " + am_Pm;
 
-  var time= hours+":"+ minutes+" " +am_Pm;
+  var time= hours+":"+ minutes
 
  var element= document.getElementById('timer');
  element.innerHTML= time;

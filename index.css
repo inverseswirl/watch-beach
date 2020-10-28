@@ -1,7 +1,8 @@
-/* main body */
 body{
-    background: url(https://images.pexels.com/photos/1159675/pexels-photo-1159675.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+     background:url(./img1.jpg) ;
+
 }
+
 
 /* style elements */
 #box1{
@@ -17,10 +18,11 @@ body{
 
 #box2{
 
-    border:2px dotted #9a5b76;
+    border:2px dashed #9a5b76;
     height: 58px;
     width: 58px;
     border-radius:  50%;
+    
 
 }
 #box3{
@@ -33,7 +35,7 @@ body{
 }
 #box4{
 
-    border: 2px dotted darkkhaki;
+    border: 2px dashed darkkhaki;
     height: 58px;
     width: 58px;
     border-radius: 50%;
@@ -48,7 +50,7 @@ body{
 }
 #box6{
 
-    border: 2px dotted peru;
+    border: 2px dashed peru;
     height: 58px;
     width: 58px;
     border-radius:50%;
@@ -64,7 +66,7 @@ body{
 }
 #box8{
 
-    border: 2px dotted #5cc673;
+    border: 2px dashed #5cc673;
     height: 58px;
     width: 58px;
     border-radius: 50%;
@@ -80,7 +82,7 @@ body{
 
 #box10{
 
-    border:2px dotted #7de7f3;
+    border:2px dashed #7de7f3;
     height: 58px;
     width: 58px;
     border-radius: 50%;
@@ -127,12 +129,12 @@ body{
 
 @keyframes faded {
     0%{
-        border: 7px dotted #ef4cff ;
+        border: 7px dashed #ef4cff ;
     }  
    50%{
-    border: 7px dotted #ef8e8d ;
+    border: 7px dashed #ef8e8d ;
     }
     100% {
-        border: 7px dotted purple;
+        border: 7px dashed purple;
     }
  }

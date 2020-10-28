@@ -29,12 +29,12 @@ if( seconds%2==0){
   fifthElement.style.opacity=0.2;
   sixthElement.style.opacity=0.2;
  } else{
-  anotherElement.style.opacity=0.6;
-  secondElement.style.opacity= 0.6;
-  thirdElement.style.opacity= 0.6;
-  fourthElement.style.opacity= 0.6;
-  fifthElement.style.opacity=0.6;
-  sixthElement.style.opacity=0.6;
+  anotherElement.style.opacity=0.8;
+  secondElement.style.opacity= 0.8;
+  thirdElement.style.opacity= 0.8;
+  fourthElement.style.opacity= 0.8;
+  fifthElement.style.opacity=0.8;
+  sixthElement.style.opacity=0.8;
  }
 
   

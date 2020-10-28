@@ -1,5 +1,6 @@
 body{
-     background: url('./hourglass.jpg');
+     /* background: lightyellow; */
+     background:url(https://images.pexels.com/photos/552774/pexels-photo-552774.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
      max-width: 900px;
      height:724px;
 
@@ -106,7 +107,7 @@ body{
     color: #4833fd;
     position: absolute;
     left: 200px;
-    top: 350px;
+    top: 320px;
     font-size: 40px;
     font-style: italic;
     transition: ease-in;
@@ -120,22 +121,20 @@ body{
     position: absolute;
     top: 180px;
     left:120px;
-    width: 400px;
-    height: 400px;
+    width: 350px;
+    height: 350px;
     animation: faded;
     animation-duration: 4s ;
     animation-iteration-count: infinite;
-    animation-timing-function: step-end;
+    animation-timing-function: ease-in-out;
 
 }
 
 @keyframes faded {
     0%{
-        border: 7px dotted #ef4cff ;
+        border: 7px dotted slateblue;
     }  
-   50%{
-    border: 7px dotted #ef8e8d ;
-    }
+   
     100% {
         border: 7px dotted purple;
     }

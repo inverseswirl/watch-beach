@@ -9,7 +9,7 @@ body{
     background-color:#ff7e00 ;
     height: 60px;
     width: 60px;
-    border-radius: 50px;
+    border-radius: 50%  ;
     margin-top: 50px;
 }
 
@@ -18,9 +18,9 @@ body{
 #box2{
 
     border:2px dotted #9a5b76;
-    height: 60px;
-    width: 60px;
-    border-radius:  50px;
+    height: 58px;
+    width: 58px;
+    border-radius:  50%;
 
 }
 #box3{
@@ -28,15 +28,15 @@ body{
     background-color:lightpink ;
     height: 60px;
     width: 60px;
-    border-radius: 50px;
+    border-radius: 50%;
 
 }
 #box4{
 
     border: 2px dotted darkkhaki;
-    height: 60px;
-    width: 60px;
-    border-radius: 50px;
+    height: 58px;
+    width: 58px;
+    border-radius: 50%;
 
 }
 #box5{
@@ -44,14 +44,14 @@ body{
     background-color: #dfe019 ;
     height: 60px;
     width: 60px;
-    border-radius: 50px;
+    border-radius: 50%;
 }
 #box6{
 
     border: 2px dotted peru;
-    height: 60px;
-    width: 60px;
-    border-radius:50px;
+    height: 58px;
+    width: 58px;
+    border-radius:50%;
 
 }
 #box7{
@@ -59,15 +59,15 @@ body{
     background-color: plum;
     height: 60px;
     width: 60px;
-    border-radius: 50px;
+    border-radius: 50%;
 
 }
 #box8{
 
     border: 2px dotted #5cc673;
-    height: 60px;
-    width: 60px;
-    border-radius: 50px;
+    height: 58px;
+    width: 58px;
+    border-radius: 50%;
 
 }
 #box9{
@@ -75,15 +75,15 @@ body{
     background-color:#ce0043;
     height: 60px;
     width: 60px;
-    border-radius: 50px;
+    border-radius: 50%;
 }
 
 #box10{
 
     border:2px dotted #7de7f3;
-    height: 60px;
-    width: 60px;
-    border-radius: 50px;
+    height: 58px;
+    width: 58px;
+    border-radius: 50%;
 }
 
 #box11{
@@ -91,7 +91,7 @@ body{
     background-color: #7db32f;
     height: 60px;
     width: 60px;
-    border-radius: 50px;
+    border-radius: 50%;
 }
 
 

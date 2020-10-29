@@ -1,8 +1,8 @@
 body{
      /* background: lightyellow; */
      background:url(https://images.pexels.com/photos/552774/pexels-photo-552774.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
-     max-width: 900px;
-     height:724px;
+     max-width: 100%;
+     height:auto;
 
 }
 
@@ -199,6 +199,15 @@ body{
     font-style: italic;
 
 }
+@media only screen and (max-width: 400px) {
+    body {
+      max-width: 600px;
+      
+    }
+    #timer{
+        font-size: 10px;
+    }
+  }
 
 #date{
 

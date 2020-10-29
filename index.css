@@ -222,12 +222,12 @@ body{
       
     }
     #timer{
-        font-size: 20px;
+        font-size: 30px;
         left: 50px;
     }
 
     #date{
-         font-size: 20px;
+         font-size: 15px;
          left: 160px;
     }
     

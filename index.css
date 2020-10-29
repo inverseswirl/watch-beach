@@ -189,11 +189,16 @@ body{
 
 
 /* digital watch */
+.mains{
+    position:relative;
+    
+    
+}
 #timer{
    
     color: white;
     position: absolute;
-    left: 190px;
+    left: 80px;
     top: 230px;
     font-size: 80px;
     font-style: italic;
@@ -204,7 +209,7 @@ body{
 
     color: white;
     position: absolute;
-    left: 250px;
+    left: 200px;
     top: 320px;
     font-size: 25px;
     font-style: italic;
@@ -218,11 +223,14 @@ body{
     }
     #timer{
         font-size: 20px;
+        left: 50px;
     }
 
     #date{
          font-size: 20px;
+         left: 160px;
     }
+    
 }
 
 

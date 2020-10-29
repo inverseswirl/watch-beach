@@ -199,15 +199,6 @@ body{
     font-style: italic;
 
 }
-@media only screen and (max-width: 400px) {
-    body {
-      max-width: 600px;
-      
-    }
-    #timer{
-        font-size: 10px;
-    }
-  }
 
 #date{
 
@@ -218,10 +209,23 @@ body{
     font-size: 25px;
     font-style: italic;
 
-
-
-
 }
+
+@media (max-width: 400px) {
+    body {
+       background: url('./clock.jpeg');
+      
+    }
+    #timer{
+        font-size: 20px;
+    }
+
+    #date{
+         font-size: 20px;
+    }
+}
+
+
 
 
 

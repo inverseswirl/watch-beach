@@ -224,11 +224,14 @@ body{
     #timer{
         font-size: 30px;
         left: 50px;
+        font-weight: bold;
+        top: 20px;
     }
 
     #date{
          font-size: 15px;
          left: 160px;
+         top: 30px;
     }
     
 }

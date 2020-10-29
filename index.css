@@ -21,7 +21,7 @@ body{
 
 #box2{
 
-    border:2px dashed #9a5b76;
+    border:2px dashed #964769;
     height: 58px;
     width: 58px;
     border-radius:  50%;
@@ -38,7 +38,7 @@ body{
 }
 #box4{
 
-    border: 2px dashed darkkhaki;
+    border: 2px dashed rgb(110, 105, 7);
     height: 58px;
     width: 58px;
     border-radius: 50%;
@@ -46,14 +46,14 @@ body{
 }
 #box5{
 
-    background-color: #dfe019 ;
+    background-color: #c7c764 ;
     height: 60px;
     width: 60px;
     border-radius: 50%;
 }
 #box6{
 
-    border: 2px dashed peru;
+    border: 2px dashed rgb(172, 93, 13);
     height: 58px;
     width: 58px;
     border-radius:50%;
@@ -69,7 +69,7 @@ body{
 }
 #box8{
 
-    border: 2px dashed #5cc673;
+    border: 2px dashed #299140;
     height: 58px;
     width: 58px;
     border-radius: 50%;
@@ -77,7 +77,7 @@ body{
 }
 #box9{
 
-    background-color:#ce0043;
+    background-color:#ec4f84;
     height: 60px;
     width: 60px;
     border-radius: 50%;
@@ -85,7 +85,7 @@ body{
 
 #box10{
 
-    border:2px dashed #7de7f3;
+    border:2px dashed #276b75;
     height: 58px;
     width: 58px;
     border-radius: 50%;
@@ -104,18 +104,29 @@ body{
 /* digital watch */
 #timer{
    
-    color: #4833fd;
+    color: white;
     position: absolute;
     left: 190px;
     top: 230px;
-    font-size: 30px;
+    font-size: 80px;
     font-style: italic;
-    transition: ease-in;
 
 }
 
+#date{
 
-#circle{
+    color: white;
+    position: absolute;
+    left: 250px;
+    top: 320px;
+    font-size: 25px;
+    font-style: italic;
+
+
+
+
+}
+/* #circle{
     border-radius: 40px;
     border: 7px solid green;
     position: absolute;
@@ -139,6 +150,6 @@ body{
         border: 7px double darkorchid;
     }
  }
-
+ */
 
 
